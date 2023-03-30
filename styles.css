@@ -31,11 +31,17 @@ nav {
     line-height: 16px;
 }
 
-.get-in-touch {
-    background: #FFFFFF;
+button.btn.get-in-touch {
+    background-color: #FFFFFF;
     border: 1px solid #2B8C34;
     border-radius: 8px;
 }
+
+button.btn.get-in-touch:hover {
+    background-color: #2B8C34;
+    color: #ffffff;
+}
+
 
 /* Hero Section */
 .hero-sect-sect {
@@ -148,7 +154,7 @@ div.text-box{
 
  /* The Partner Logos */
 .top-logo {
-    margin-right: 8%;
+    margin-right: 5%;
 }
 
 .bottom-logo {
@@ -157,7 +163,8 @@ div.text-box{
 
 .usaid {
     width: 5%;
-    height: 5%;   
+    height: 5%;
+    margin-left: 2%;  
 }
 
 .google {
@@ -333,7 +340,7 @@ span {
 }
 
 .more-prod a:hover{
-    color: green;
+    color: #333;
 }
 /* Testimonial Section */
 .testimonial-sect {
@@ -441,26 +448,22 @@ div.card.blog-card {
     box-shadow: 0px 0px 1.24737px rgba(0, 0, 0, 0.25);
 }
 
-.card-body:hover {
-    margin-top: -5px;
-}
-
 .card-body a {
     text-decoration: none;
     color: #2B8C34;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 150%;
 }
 
 .card-body a:hover{
     background-color: none;
-    color: #2e00a8;
+    color: #333;
 }
 
 .card-body p {
-    font-weight: 700;
-    font-size: 16px;
+    font-weight: 600;
+    font-size: 14px;
     line-height: 150%;
     color: #8C9B8E;
 }
@@ -536,13 +539,13 @@ div.card.blog-card {
 }
 /* Footer Section */
 .footer-sect {
-    padding: 6% 0% 3% 5%;
+    padding: 6% 0% 3% 2%;
     background-color:#2B8C34;
-    overflow: none;
+    overflow: hidden;
 }
 
 .footer-brand {
-    padding-left: 4%;
+    padding-left: 2%;
 }
 
 .footer-sect h3{
@@ -694,7 +697,7 @@ small {
     .spin-text {
         font-size: 14px;
         line-height: 18px;
-        margin-bottom: 9%;
+        margin-bottom: 4%;
     }
 
     div.text-box {
@@ -904,7 +907,7 @@ small {
         margin-bottom: 10%;
     }
     
-    div.blog-card-mob.card-body {
+    div.blog-card.card-body {
         background: #FFF9E5;
         box-shadow: 0px 0px 1.24737px rgba(0, 0, 0, 0.25);
     }
@@ -928,7 +931,7 @@ small {
         color: #8C9B8E;
     }
     
-    .blog-cta-mob button {
+    .blog-cta button {
         background-color: #fff;
         padding: 10px 20px;
         font-weight: 400;
@@ -977,7 +980,8 @@ small {
     .contact-form button {
         padding: 10px 20px;
         height: 38px;
-
+        font-size: 14px;
+        line-height: 18px;
     }
 
     /* Footer Section */
